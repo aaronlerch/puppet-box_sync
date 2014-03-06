@@ -13,7 +13,7 @@ class box_sync {
   # :sad panda that understands but is still sad:
 
   package { "BoxSync.pkg":
-    provider => 'pkgdmg',
+    provider => 'appdmg',
     source   => "https://app.box.com/shared/static/2d1iwrw24sezez37tby6.dmg",
   }
 
