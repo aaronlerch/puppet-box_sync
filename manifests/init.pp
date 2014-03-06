@@ -12,9 +12,9 @@ class box_sync {
   # to end in .dmg or .pkg.
   # :sad panda that understands but is still sad:
 
-  package { "BoxSync.pkg":
+  package { 'BoxSync.pkg':
     provider => 'appdmg',
-    source   => "https://app.box.com/shared/static/2d1iwrw24sezez37tby6.dmg",
+    source   => 'https://app.box.com/shared/static/2d1iwrw24sezez37tby6.dmg',
   }
 
 }
